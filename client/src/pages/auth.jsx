@@ -18,13 +18,9 @@ export const Auth = () => {
   return (
     <>
       <VStack p={5}>
-        <Link
-          href="https://github.com/mdnur89"
-          isExternal
-          alignSelf="flex-end"
-        >
+        {/* <Link href="https://github.com/mdnur89" isExternal alignSelf="flex-end">
           <Icon as={AiFillGithub} w={8} h={8} />
-        </Link>
+        </Link> */}
         <Image width={300} src={logo} alt="logo" />
         <Heading as="h3" size="md" pb="5" fontWeight="semibold">
           Sign in to your account
